@@ -1,11 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+string name = Console.ReadLine();
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>_05GreetingByName</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+Console.WriteLine("Hello, " + name +"!");
 
-</Project>
