@@ -1,11 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+//WeHave
+double dogFood = 2.50;
+int catFood = 4;
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>_08PetShop</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+//Input 
 
-</Project>
+int numOfDogFoodPacks = int.Parse(Console.ReadLine());
+int numOfCatFoodPacks = int.Parse(Console.ReadLine());
+
+//Calculation
+
+double allPacksDogFood = dogFood * numOfDogFoodPacks; 
+int allPacksCatFood = catFood * numOfCatFoodPacks;
+double allCost = allPacksDogFood + allPacksCatFood;
+// OutPut
+
+Console.WriteLine($" {allCost} lv.");
