@@ -3,15 +3,13 @@ double dogFood = 2.50;
 int catFood = 4;
 
 //Input 
-
 int numOfDogFoodPacks = int.Parse(Console.ReadLine());
 int numOfCatFoodPacks = int.Parse(Console.ReadLine());
 
 //Calculation
-
 double allPacksDogFood = dogFood * numOfDogFoodPacks; 
 int allPacksCatFood = catFood * numOfCatFoodPacks;
 double allCost = allPacksDogFood + allPacksCatFood;
-// OutPut
 
+// OutPut
 Console.WriteLine($" {allCost} lv.");
