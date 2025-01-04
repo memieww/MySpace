@@ -1,11 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+// Input
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>_07ProjectsCreation</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+string architectName = Console.ReadLine();
+int numProjects = int.Parse(Console.ReadLine());
 
-</Project>
+//Calculation
+
+int needHours = numProjects * 3;
+
+//OutPut
+
+Console.WriteLine($"The architect {architectName} will need {needHours} hours to complete {numProjects} project/s.");
