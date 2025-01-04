@@ -1,19 +1,14 @@
 //WeHave
-
 double prizeQM = 7.61;
 
-
 //InPut
-
 double LenghtQM = double.Parse(Console.ReadLine());
 
 //Calculation
-
 double Price = prizeQM * LenghtQM;
 double discount = Price * 18 / 100;
 double endPrice = Price - discount ;
 
 //Output
-
 Console.WriteLine("The final price is:" + " " + endPrice);
 Console.WriteLine($"The discount is: {discount}");
