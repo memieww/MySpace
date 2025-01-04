@@ -1,11 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+double number = double.Parse(Console.ReadLine());
+double centimeres = number * 2.54;
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>_04InchesToCentimeters</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
-</Project>
+Console.WriteLine(centimeres);
