@@ -1,11 +1,6 @@
-<Project Sdk="Microsoft.NET.Sdk">
+string firstName = Console.ReadLine();
+string lastName = Console.ReadLine();
+int age = int.Parse(Console.ReadLine());
+string city = Console.ReadLine();
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>_06ConcatenateData</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
-</Project>
+Console.WriteLine($"You are {firstName} {lastName}, a {age}-years old person from {city}.");
